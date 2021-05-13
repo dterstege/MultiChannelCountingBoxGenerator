@@ -6,23 +6,23 @@ Originally designed for the validation of different label segmentation tools, bu
 
    INPUTS: .tif format (not specific to bit depth)
 
-       1) Image wit most visible cytoarchitechture.  This is generally a
+   -1) Image wit most visible cytoarchitechture.  This is generally a
        DAPI stained image, or something from which your ROI can be clearly
        identified
 
-       2) Raw labelled image.  The image containing your unprocessed label
+   -2) Raw labelled image.  The image containing your unprocessed label
        of interest. These can then be used as your ground truth during
        validation.  If doing multi-channel image analysis, select your
        first channel here.
 
-       3) Processed image.  The image containing your processed label of
+   -3) Processed image.  The image containing your processed label of
        interest.  These will be used to assess the validity of your
        segmentation.  If doing multi-channel image analysis, select your
        second channel here.
 
    OUTPUTS: .png
 
-       Outputs will populate in the desired output folder.  Images with
+   -Outputs will populate in the desired output folder.  Images with
        "raw" in the file name were generated from the unprocessed image.
        Images with "processed" in the file name were generated from the
        processed image.
